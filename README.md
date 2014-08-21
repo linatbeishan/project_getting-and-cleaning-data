@@ -9,7 +9,7 @@ How does my codes work
 ###1. Merges the training and the test sets to create one data set
 
  1. I use the **read.table** function to read in the features.txt file, and there are a total of 561 variables,  
-    I also notice that there are **some duplicated variable names** in the 561 variables;
+    I also notice that *there are some duplicated variable names in the 561 variables*;
  2. I use the **read.table** function to read in the test & train data set;
  3. I get the testData set by using **cbind** function to combine the information provided by files: x_test.txt, y_test.txt,       subject_test.txt;
  4. Like step 2, I get the trainData set;
