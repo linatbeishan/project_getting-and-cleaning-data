@@ -36,3 +36,6 @@ How does my codes work
  2. As mentioned above, there are some duplicated variable names in the 561 variables list;  
    It's against the principle of clean tidy set to keep them all; Since there is no detailed information on these variables, I simply remove all of them from the final data set; A better approach may be to keep them all by adding suffix to those duplicated variable, for example: fBodyAcc-bandsEnergy()-1,8.1, fBodyAcc-bandsEnergy()-1,8.2, etc.
  3. I use the **write.table** function to obtain the final newTidyData set;
+
+###Notice:  
+ For more detailed information, you can read the comments in my program: *run_analysis.R*.
