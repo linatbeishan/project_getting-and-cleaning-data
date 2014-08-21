@@ -17,7 +17,7 @@ How does my codes work
  
 ###2.Extracts only the measurements on the mean and standard deviation for each measurement
   As we can see in the file: feature_info.txt, both the mean() & meanFreq() variables   
-  stands for the mean measurements, and std() stands for the standard deviation measurements, thus:
+    stands for the mean measurements, and std() stands for the standard deviation measurements, thus:
  1. I use **grep** function to get those variable names from all the column names;
  2. I use the **subset** function to get the subset data;
 
