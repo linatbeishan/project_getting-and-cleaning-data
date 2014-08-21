@@ -23,7 +23,7 @@ How does my codes work
 ###3. Uses descriptive activity names to name the activities in the data set
  1. I use **read.table** function to get the activityIds and anctivity names,   
     then I store the information in a hash table(requires to install **hash** package first);
- 2. I write a function **funIdtoName** to return the activity name when provided an activityId;
+ 2. I write a function **funIdtoName** to return the activity name when provided an activityId argument;
  3. I use the **saplly** function to replace the activityId column with activity name in the data set;
  
 ###4. Appropriately labels the data set with descriptive variable names.
